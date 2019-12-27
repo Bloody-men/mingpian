@@ -4,7 +4,6 @@
 li{list-style: none;}
 .sharecard{
 	max-width: 480px;
-	height: 100vh;
     margin: 0 auto;
    border-radius: 8px;text-align: center;
    position: relative;
@@ -26,7 +25,7 @@ li{list-style: none;}
 .share-text {
     width: 70px;
     height: 57.5px;
-    position: absolute;
+    position: fixed;
     bottom: 0px;
     left:50%;
     margin-left: -35px;
