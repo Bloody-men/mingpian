@@ -1,0 +1,179 @@
+/*************  自己写的 css  **************************/
+
+*{margin:0px;padding: 0px;}
+li{list-style: none;}
+.sharecard{
+	max-width: 480px;
+	height: 100vh;
+    margin: 0 auto;
+   border-radius: 8px;text-align: center;
+   position: relative;
+    
+}
+.swiper-slide>img{
+	height: 100%;
+	-webkit-border-radius: 8px;
+	-webkit-box-shadow: 0 15px 20px 4.5px rgba(0,0,0,.15);
+}
+.remind{
+	font-size: 14px;
+    font-weight: 600;
+    color: #333;
+    line-height: 42px;
+    letter-spacing: 1px;
+}
+
+.share-text {
+    width: 70px;
+    height: 57.5px;
+    position: absolute;
+    bottom: 0px;
+    left:50%;
+    margin-left: -35px;
+    background: url(share-bg.png) no-repeat;
+    background-size: 100%;
+}
+.share-text>img{
+	margin-top: 10px;
+	width: 24px;
+}
+.share-text>span {
+    font-size: 9px;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    margin-left: -50%;
+    bottom: 5px;
+    color: #666;
+}
+.set-recommend-container{
+	position: fixed;
+    bottom: 0;
+   display: none;
+    height: 58vh;
+    max-width: 480px;
+    width: 100%;
+    border-radius: 25px 25px 0 0;
+    background: #fff;
+    z-index: 1;
+}
+.set-recommend-container>span{
+	color: #333;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 45px;
+}
+.set-recommend-container>ul{
+    height: 42vh;
+    background: #f7f7f7;
+    overflow-y:auto;
+}
+.set-recommend-container>ul>li{
+    background: #eee;
+    width: 90%;
+    margin: 10px auto;
+    text-align: left;
+    padding: 7px 10px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    border-radius: 10px;
+}
+.set-recommend-container>.btn{
+	width: 80%;
+    margin: 10px auto;
+    line-height: 32px;
+    border-radius: 25px;
+    background: #649efd;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    letter-spacing: 5px;
+}
+.btn_close{
+	width: 14px;
+    float: right;
+    margin: 15px;
+}
+.act{
+	background: #d8e4f9 !important;
+	border: 2px solid #649efd;
+}
+/*************  插 件 1  **************************/
+.swiper-slide,.swiper-wrapper {
+	height:100%;
+	position:relative;
+	transform-style:preserve-3d;
+	width:90%
+}
+.swiper-pagination,.swiper-wrapper {
+	-webkit-transform:translate3d(0,0,0)
+}
+.swiper-container {
+	margin:0 auto;
+	position:relative;
+	overflow:hidden;
+	z-index:1
+}
+.swiper-wrapper {
+	z-index:1;
+	display:-webkit-box;
+	display:-moz-box;
+	display:-ms-flexbox;
+	display:-webkit-flex;
+	display:flex;
+	-webkit-transition-property:-webkit-transform;
+	-moz-transition-property:-moz-transform;
+	-o-transition-property:-o-transform;
+	-ms-transition-property:-ms-transform;
+	transition-property:transform;
+	-moz-transform:translate3d(0,0,0);
+	-o-transform:translate(0,0);
+	-ms-transform:translate3d(0,0,0);
+	transform:translate3d(0,0,0);
+	-webkit-box-sizing:content-box;
+	-moz-box-sizing:content-box;
+	box-sizing:content-box
+}
+.swiper-slide {
+	-webkit-flex-shrink:0;
+	-ms-flex:0 0 auto;
+	flex-shrink:0
+}
+.swiper-wp8-horizontal {
+	-ms-touch-action:pan-y;
+	touch-action:pan-y
+}
+.swiper-wp8-vertical {
+	-ms-touch-action:pan-x;
+	touch-action:pan-x
+}
+/*************  插 件 2  **************************/
+#header img {
+	width:100%
+}
+.swiper-container {
+	width:100%;
+	-webkit-perspective:1200px;
+	-moz-perspective:1200px;
+	-ms-perspective:1200px;
+	perspective:1200px
+}
+.swiper-slide {
+	/*width:80%;*/
+	-webkit-transform-style:preserve-3d;
+	-moz-transform-style:preserve-3d;
+	-ms-transform-style:preserve-3d;
+	transform-style:preserve-3d
+}
+.swiper-slide .main-img {
+	width:85%;
+	margin:2rem auto;
+	display:block;
+	border-radius: 10px;
+}
+#pagination {
+	position:absolute;
+	bottom:100px;
+	width:100%
+}
