@@ -210,7 +210,7 @@ body, html {
     width: 75%;
 }
 }
-@media (min-height: 720px) {
+@media (max-height: 720px) {
 	.main-img {
 	width:80%;
 	margin:10% auto;
@@ -218,7 +218,7 @@ body, html {
 	border-radius: 10px;height
 }
 }
-@media (min-height: 720px) {
+@media (max-height: 720px) {
 .swiper-slide {
     position: relative;
     transform-style: preserve-3d;
