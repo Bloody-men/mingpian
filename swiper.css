@@ -210,6 +210,21 @@ body, html {
     width: 75%;
 }
 }
+@media (min-height: 720px) {
+	.main-img {
+	width:80%;
+	margin:10% auto;
+	display:block;
+	border-radius: 10px;height
+}
+}
+@media (min-height: 720px) {
+.swiper-slide {
+    position: relative;
+    transform-style: preserve-3d;
+    width: 80%;
+}
+}
 #pagination {
 	position:absolute;
 	bottom:100px;
