@@ -195,7 +195,7 @@ body, html {
 	border-radius: 10px;
 }
 
-@media (max-width: 340px) {
+@media (max-width: 320px) {
 	.main-img {
 	width:80%;
 	margin:15% auto 10%;
@@ -203,14 +203,14 @@ body, html {
 	border-radius: 10px;
 }
 }
-@media (max-width: 340px) {
+@media (max-width: 320px) {
 .swiper-slide {
     position: relative;
     transform-style: preserve-3d;
     width: 75%;
 }
 }
-@media (min-width: 420px) {
+@media (min-width: 380px) {
 	.main-img {
 	width:80%;
 	margin:10% auto;
@@ -218,7 +218,7 @@ body, html {
 	border-radius: 10px;
 }
 }
-@media (min-width: 420px) {
+@media (min-width: 380px) {
 .swiper-slide {
     position: relative;
     transform-style: preserve-3d;
