@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>分享海报</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<link rel="stylesheet" href="swiper.css">
+</head>
+<body style="background: #EDEDED;">
+<div class="sharecard">
+	<div class="swiper-container">
+		<div class="swiper-wrapper">
+		    <div class="swiper-slide"><img src="http://file.hdk.oneinall.cn/default-file/sharebg/1.jpg" class="main-img"></div>
+		    <div class="swiper-slide"><img src="http://file.hdk.oneinall.cn/default-file/sharebg/1.jpg" class="main-img"></div>
+		    <div class="swiper-slide"><img src="http://file.hdk.oneinall.cn/default-file/sharebg/1.jpg" class="main-img"></div>
+		    <div class="swiper-slide"><img src="http://file.hdk.oneinall.cn/default-file/sharebg/1.jpg" class="main-img"></div>
+		    <div class="swiper-slide"><img src="http://file.hdk.oneinall.cn/default-file/sharebg/1.jpg" class="main-img"></div>
+		    <div class="swiper-slide"><img src="http://file.hdk.oneinall.cn/default-file/sharebg/1.jpg" class="main-img"></div>
+		</div> 
+		
+	</div>
+	<p class="remind">长按图片，保存或发送朋友</p>
+	<div class="share-text">
+		<img src="img/share-text_2.png">
+		<span>分享文案</span>
+	</div>
+	<div class="set-recommend-container">
+		<span>选择分享文案</span>
+		<img src="img/btn-close.png" class="btn_close">
+		<ul class="ul">
+			<li>12堂赚钱必学文案课：让你的文案变成一字千金的印钞机》让知识变的如此易懂，扫码就可以查看课程〜</li>
+			<li>让你的文案变成一字千金的印钞机》让知识变的如此易懂，扫码就可以查看课程〜</li>
+			<li>12堂赚钱必学文案课：让知识变的如此易懂，扫码就可以查看课程〜</li>
+			<li>12堂赚钱必学文案课：让你的文案变成一字千金的印钞机扫码就可以查看课程〜</li>
+			<li>《 12堂赚钱必学文案课：让你的文案变成一字千金的印钞机》让知识变的如此易懂，扫码就可以查看课程〜</li>
+			<li>让你的文案变成一字千金的印钞机》让知识变的如此易懂，扫码就可以查看课程〜</li>
+			<li>12堂赚钱必学文案课：让知识变的如此易懂，扫码就可以查看课程〜</li>
+			<li>12堂赚钱必学文案课：让你的文案变成一字千金的印钞机扫码就可以查看课程〜</li>
+			<li>《 12堂赚钱必学文案课：让你的文案变成一字千金的印钞机》让知识变的如此易懂，扫码就可以查看课程〜</li>
+		</ul>
+		<div class="btn">一键复制</div>
+	</div>
+	
+</div>
+</body>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+<script src="js/swiper.min.js"></script>
+<script src="js/choumei.min.js"></script>
+
+<script type="text/javascript">
+
+$(".share-text").click(function(){
+	$('.set-recommend-container').show();
+});
+$(".btn_close").click(function(){
+	$('.set-recommend-container').hide();
+});
+
+$('.set-recommend-container li').click(function(){
+	//点击li切换样式
+	$(this).addClass('act').siblings().removeClass('act');
+});
+
+</script>
+
+ 
+</html>
+
+
+
+
+
+
+
+
+
