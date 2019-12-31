@@ -184,7 +184,6 @@ li{list-style: none;}
     flex-shrink:0;
 
 height: 80vh;
-border: 1px solid red;
 display: flex;
 align-items: center;
 
