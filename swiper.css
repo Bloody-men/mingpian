@@ -122,7 +122,7 @@ li{list-style: none;}
 	/*height:100%;*/
 	position:relative;
 	transform-style:preserve-3d;
-	width:85%
+	width:90%
 }
 .swiper-pagination,.swiper-wrapper {
 	-webkit-transform:translate3d(0,0,0)
