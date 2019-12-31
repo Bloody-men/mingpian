@@ -122,7 +122,7 @@ li{list-style: none;}
 	/*height:100%;*/
 	position:relative;
 	transform-style:preserve-3d;
-	width:90%
+	width:95%
 }
 .swiper-pagination,.swiper-wrapper {
 	-webkit-transform:translate3d(0,0,0)
@@ -196,7 +196,7 @@ align-items: center;
 
 }
 .main-img {
-	height:85%;
+	height:83%;
 	margin:0 auto;
 	display:block;
 	border-radius: 10px;
